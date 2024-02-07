@@ -4,6 +4,7 @@ case 0: import
 >>> MyList = __import__('1-my_list').MyList
 >>>
 
+---------------------------------------
 case 1: common case
 
 >>> my_list = MyList()
@@ -18,8 +19,8 @@ case 1: common case
 [1, 2, 3, 4, 5]
 >>> print(my_list)
 [1, 4, 2, 3, 5]
->
-
+>>>
+----------------------------------------
 case 2: not defined object
 
 >>> MyList = __import__('1-my_list').MyList
