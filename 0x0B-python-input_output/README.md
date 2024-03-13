@@ -1,0 +1,1 @@
+In Python, input/output (I/O) operations refer to the process of receiving input from the user (usually through the keyboard or files) and providing output (usually to the screen or files). Python provides several built-in functions and methods forhandling input and output efficiently. Let's delve into the key aspects:
