@@ -1,6 +1,8 @@
 #!/usr/bin/node
-exports.callMeMoby = function (x, theFunction) {
-  for (let i = 0; i < x; i++) {
-    theFunction();
-  }
+const myObject = {
+  type: 'object',
+  value: 12
 };
+console.log(myObject);
+myObject.value = 89;
+console.log(myObject);
