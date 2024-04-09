@@ -1,7 +1,5 @@
 #!/usr/bin/node
-/**
- * Represents a Rectangle
- */
-Class Rectangle {}
+Class Rectangle {
+}
 
 module.exports = Rectangle;
