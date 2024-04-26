@@ -1,9 +1,13 @@
-# 0-hbtn_status.py
-
+#!/usr/bin/python3
+"""Fetches https://alx-intranet.hbtn.io/status."""
 import urllib.request
 
+
 if __name__ == "__main__":
-    with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as response:
-        data = response.read()
-        print("Body response:\n\n    - type: <class 'bytes'>\n    - content: {}\n    - utf8 content: {}".format(
-          i  type(data), data.decode('utf-8')))
+    request = urllib.request.Request("https://alx-intranet.hbtn.io/status")
+    with urllib.request.urlopen(request) as response:
+        body = response.read()
+        print("Body response:")
+        print("\t- type: {}".format(type(body)))
+        print("\t- content: {}".format(body))
+        print("\t- utf8 content: {}".format(body.decode("utf-8")))
